@@ -11,9 +11,9 @@
 
 .site-footer{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(3,1fr);
     gap: 30px;
-     max-width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 5px 2px;
 }
@@ -22,6 +22,10 @@
     height: 53px;
 
 }
+.site-grid{
+    display: flex;
+    justify-content: space-around;
+}
 .site-two{
     font-size: 14px;
     line-height: 17px;
@@ -29,14 +33,21 @@
 .site-two p{
     padding: 3px;
 }
-.footer-icon a{
+.site-img img{
+    width: 134px;
+    height: 40px;
+    padding: 2px;
+}
+.footer-icon{
     text-align: center;
    font-size: 25px;
    margin-top: 40px;
+   
 }
-
-
-
+.footer-icon a i{
+   color: #7D7D7D;
+   padding: 10px;
+}
 
 .foot-text{
     
@@ -50,4 +61,16 @@
     text-align: center;
     font-weight: 400;
     font-size: 14px;
+}
+.border{
+    border: 1px solid #505050;
+}
+@media (max-width:688px) {
+    .site-footer{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 10px;
+        margin-left: 25px;
+    }
+
 }
