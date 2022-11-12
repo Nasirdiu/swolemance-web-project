@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: black;
+    color: white;
+   
+}
+
+.site-footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+     max-width: 1200px;
+    margin: 0 auto;
+    padding: 5px 2px;
+}
+.site-one img{
+    width: 160px;
+    height: 53px;
+
+}
+.site-two{
+    font-size: 14px;
+    line-height: 17px;
+}
+.site-two p{
+    padding: 3px;
+}
+.footer-icon a{
+    text-align: center;
+   font-size: 25px;
+   margin-top: 40px;
+}
+
+
+
+
+.foot-text{
+    
+    width: 100%;
+    padding: 20px;
+    margin-top: 50px;
+    
+
+}
+.foot-text p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+}
