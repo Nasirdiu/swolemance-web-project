@@ -53,7 +53,6 @@
     
     width: 100%;
     padding: 20px;
-    margin-top: 50px;
     
 
 }
@@ -64,6 +63,7 @@
 }
 .border{
     border: 1px solid #505050;
+    margin: 20px 0 20px 0;
 }
 @media (max-width:688px) {
     .site-footer{
