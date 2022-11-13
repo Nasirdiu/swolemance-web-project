@@ -61,6 +61,23 @@ nav{
     background-color: #EDF1F9;
     width: 100%;
     padding: 2px 0 2px 0;
+    margin-bottom: 10px;
+}
+.section-tow-card{
+    width: 180px;
+    height: 220px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    
+}
+
+.section-tow-name{
+    text-align: center;
+}
+.section-tow-word{
+    color: #7185AD;
 }
 
 /* footer  */
