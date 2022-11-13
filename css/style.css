@@ -35,6 +35,7 @@ nav{
     color: #3D72D0;
 }
 
+/* main section  */
 .main-img{
     margin: 20px;
     padding: 20px;
@@ -57,11 +58,12 @@ nav{
     color: #3F3F3F;
     margin: 30px;
 }
+/* main section  two*/
 .section-two{
     background-color: #EDF1F9;
     width: 100%;
     padding: 2px 0 2px 0;
-    margin-bottom: 10px;
+  
 }
 .section-tow-card{
     width: 180px;
@@ -79,6 +81,49 @@ nav{
 .section-tow-word{
     color: #7185AD;
 }
+
+/* main section three  */
+.section-three{
+    background-color: #F5F5F5;
+    width: 100%;
+    padding: 2px 0 2px 0;
+    margin-bottom: 10px;
+}
+.section-three-card{
+    width: 345px;
+    height: 220px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    border: 1px solid #C8C8C8 ;
+    
+}
+.section-three-card img{
+    border-radius: 10px;
+    margin: 5px;
+    width: 100px;
+    height: 80px;
+}
+.section-three-title{
+   margin: 20px;
+   
+}
+
+.section-three-mor{
+    color: #3D72D0;
+    
+}
+
+
+
+
+
+
+
+
+
+
 
 /* footer  */
 .container-footer{
