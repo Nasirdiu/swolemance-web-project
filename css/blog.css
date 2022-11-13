@@ -35,7 +35,11 @@
 }
 .border-title{
     border: 1px solid #DBE3F0;
+    margin: 0px;
 }
 .blog-title-p p{
     font-size: 13px;
+}
+.fa-blog-icon{
+    padding-left: 20px;
 }

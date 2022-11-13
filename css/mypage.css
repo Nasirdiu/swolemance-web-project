@@ -21,3 +21,14 @@
     background-color: #3D72D0;
     
 }
+.card-title-blog{
+    background-color:  #F1F6FF;
+}
+.border-title{
+    border: 1px solid #DBE3F0;
+    margin: 0px;
+    
+}
+.fa-title{
+    padding-left: 20px;
+}
