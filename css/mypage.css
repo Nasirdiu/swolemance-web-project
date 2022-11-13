@@ -1,0 +1,23 @@
+.my-avater{
+    margin-top: 165px;
+
+}
+.my-title{
+    padding-top: 90px;
+    color: black;
+    padding-left: 30px;
+    
+}
+.button-my{
+    background-color: #EDEDED;
+    border: none;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    
+}
+
+.button-my:hover{
+    background-color: #3D72D0;
+    
+}
