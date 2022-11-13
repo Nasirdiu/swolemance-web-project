@@ -1,0 +1,21 @@
+.middle{
+    display: flex;
+}
+
+.middle-images img{
+    width: 160px;
+    height: 220px;
+    border-radius: 10px;
+    
+}
+
+.hedding-text h6{
+    color: #3D72D0;
+}
+.card-blog{
+    
+    background-color: #FFFFFF;
+    border: 1px solid #EDEDED;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
