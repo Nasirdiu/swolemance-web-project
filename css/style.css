@@ -61,27 +61,15 @@ nav{
 /* main section  two*/
 .section-two{
     background-color: #EDF1F9;
-    width: 100%;
-    padding: 2px 0 2px 0;
-  
+     
 }
 .section-tow-card{
-    width: 180px;
-    height: 220px;
     background-color: #FFFFFF;
+    height: 220px;
     border-radius: 10px;
-    margin-left: 30px;
-    margin-bottom: 50px;
-    
-}
-
-.section-tow-name{
     text-align: center;
+    padding-top: 15px;
 }
-.section-tow-word{
-    color: #7185AD;
-}
-
 /* main section three  */
 .section-three{
     background-color: #F5F5F5;
@@ -91,7 +79,7 @@ nav{
 }
 .section-three-card{
     width: 345px;
-    height: 220px;
+    height: 240px;
     background-color: #FFFFFF;
     border-radius: 10px;
     margin-left: 30px;
@@ -109,7 +97,10 @@ nav{
    margin: 20px;
    
 }
-
+.three-section{
+    padding: 12px;
+    padding-bottom: 5px;
+}
 .section-three-mor{
     color: #3D72D0;
     
