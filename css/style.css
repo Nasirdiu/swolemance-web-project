@@ -9,32 +9,6 @@ body{
     box-sizing: border-box;
 }
 
-nav{
-    display: flex;
-    justify-content: space-around;
-    background-color: #F5F5F5;
-    padding: 20px 0 20px 0;
-    
-}
-.nav-logo img{
-    width: 160px;
-    height: 53px;
-}
-.nav-manu{
-    display: flex;
-    align-items: center;
-}
-.nav-manu li{
-    list-style: none;
-    padding: 0px 10px;
-}
-
-.nav-manu a{
-    text-decoration: none;
-    font-size: 15px;
-    color: #3D72D0;
-}
-
 /* main section  */
 .main-img{
     margin: 20px;
