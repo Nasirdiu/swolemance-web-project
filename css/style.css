@@ -131,9 +131,10 @@ body{
     font-size: 14px;
     line-height: 17px;
 }
-.site-two a{
-    padding: 3px;
+.site-two a:hover{
+    background-color: #da2525;   
 }
+
 .site-img img{
     width: 134px;
     height: 40px;
