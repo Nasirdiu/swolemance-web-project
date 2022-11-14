@@ -52,3 +52,12 @@
     text-align: center;
     padding-top: 15px;
 }
+
+.my-card{
+    background-color: #F6F6F6;
+    width: 180px;
+    height: 200px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 15px;
+}
