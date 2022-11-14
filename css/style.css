@@ -40,7 +40,7 @@ nav{
     margin: 20px;
     padding: 20px;
     border-radius: 40px;
-    width: 70%;
+    width: 450px;
 }
 .main-hedding h1{
     font-style: normal;
@@ -48,7 +48,8 @@ nav{
     font-size: 35px;
     line-height: 49px;
     color: #3D72D0;
-    margin: 30px;
+    padding-top: 30px;
+   
 }
 .main-hedding p{
     font-style: normal;
@@ -56,7 +57,8 @@ nav{
     font-size: 24px;
     line-height: 29px;
     color: #3F3F3F;
-    margin: 30px;
+    padding-top: 30px;
+    
 }
 /* main section  two*/
 .section-two{
