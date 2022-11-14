@@ -44,3 +44,11 @@
     background-color:  #F1F6FF;
     padding: 10px;
 }
+.my-favrit{
+    border: 1px solid #3D72D0;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 15px;
+}
