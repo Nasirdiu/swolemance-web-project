@@ -46,7 +46,8 @@ body{
     text-align: center;
     padding-top: 15px;
 }
-/* main section three  */
+
+/* HAPPY STORIES   */
 .section-three{
     background-color: #F5F5F5;
     width: 100%;
@@ -81,18 +82,38 @@ body{
     color: #3D72D0;
     
 }
+/* main section three  */
+.last-sesstion{
+    background-color: #F8F8F8;
+}
+.card-blog{
+    background-color: #FFFFFF;
+    border: 1px solid #EDEDED;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+    border-radius: 20px;
+      
+}
+.card-body h5{
+    color: #607890;
+}
+.card-body h5:hover{
+    color: #150a3f;
+}
 
 .button{
     width: 200px;
     height: 40px; 
     background-color: #3D72D0; 
     border-radius: 5px;
-    color: white;
+    color: #607890;
     border: none;
+    margin-bottom: 20px;
 }
-.card-title{
-    color: #3D72D0;
+.button:hover{
+    color: #3F3F3F;
 }
+
+
 
 
 
@@ -131,9 +152,7 @@ body{
     font-size: 14px;
     line-height: 17px;
 }
-.site-two a:hover{
-    background-color: #da2525;   
-}
+
 
 .site-img img{
     width: 134px;
