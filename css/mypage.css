@@ -52,6 +52,9 @@
     text-align: center;
     padding-top: 15px;
 }
+.my-favrit:hover{
+    background-color: #F6F6F6;
+}
 
 .my-card{
     background-color: #F6F6F6;
@@ -60,4 +63,7 @@
     border-radius: 10px;
     text-align: center;
     padding-top: 15px;
+}
+.my-card:hover{
+    background-color: white;
 }
