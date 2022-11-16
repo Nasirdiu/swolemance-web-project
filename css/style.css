@@ -47,7 +47,7 @@ body{
     /* padding-top: 30px;   */
 }
 
-@media (max-width:768px) {
+@media (max-width:688px) {
     .section-container{
         display: block;
         padding-top: 50px;
@@ -133,7 +133,7 @@ body{
     border-radius: 5px;  
 }
 .section-three-mor:hover{
-    color: #3F3F3F;
+    color: #fcfcfc;
 }
 
 
@@ -171,7 +171,7 @@ body{
     margin-bottom: 20px;
 }
 .button:hover{
-    color: #3F3F3F;
+    color: #f8f5f5;
 }
 
 
