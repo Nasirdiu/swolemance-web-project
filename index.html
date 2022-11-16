@@ -18,6 +18,11 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
   </head>
   <body>
     <header>
@@ -224,38 +229,41 @@
     </header>
     <!-- main -->
     <main>
-      <section class="section-one">
-        <div class="container section-container">
-          <div class="row">
-            <div class="col-md-4">
-              <img
-                class="main-img"
-                src="/img/young-couple-doing-push-ups-from-floor-one-hand-together 1.png"
-                alt=""
-              />
-            </div>
-            <div class="col-md-8 main-hedding">
-              <h3>Find your fitness accountability partner today!</h3>
-              <p>
-                Whether you’re looking to find love through fitness or a new
-                friend that shares your fitness goals, Swolemance helps your
-                dreams become reality.
-              </p>
-            </div>
+      <section class="section-one container">
+        <div class="section-container">
+          <div class="img-div">
+            <img
+              class="main-img"
+              src="/img/young-couple-doing-push-ups-from-floor-one-hand-together 1.png"
+              alt=""
+            />
+          </div>
+          <div class="main-hedding">
+            <h3>
+              Find your fitness <br />
+              accountability partner today!
+            </h3>
+            <p>
+              Whether you’re looking to find love through <br />
+              fitness or a new friend that shares your <br />
+              fitness goals, Swolemance helps your dreams <br />
+              become reality.
+            </p>
           </div>
         </div>
       </section>
       <!-- section two  -->
       <section class="section-two">
-        <div class="container">
+        <!-- Swiper -->
+        <div class="swiper mySwiper container">
           <h1
             class="text-center mb-3 pt-3"
             style="font-weight: bold; font-size: 30px"
           >
             NEW MEMBERS
           </h1>
-          <div class="row">
-            <div class="col-md-2 section-tow-card m-2">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide section-tow-card m-2">
               <img
                 src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
                 class="rounded-circle"
@@ -266,7 +274,7 @@
               <h6 class="pt-2">Swolema</h6>
               <h6 class="pt-2">92</h6>
             </div>
-            <div class="col-md-2 section-tow-card m-2">
+            <div class="swiper-slide section-tow-card m-2">
               <img
                 src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
                 class="rounded-circle"
@@ -277,7 +285,7 @@
               <h6 class="pt-2">Swolema</h6>
               <h6 class="pt-2">92</h6>
             </div>
-            <div class="col-md-2 section-tow-card m-2">
+            <div class="swiper-slide section-tow-card m-2">
               <img
                 src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
                 class="rounded-circle"
@@ -288,7 +296,7 @@
               <h6 class="pt-2">Swolema</h6>
               <h6 class="pt-2">92</h6>
             </div>
-            <div class="col-md-2 section-tow-card m-2">
+            <div class="swiper-slide section-tow-card m-2">
               <img
                 src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
                 class="rounded-circle"
@@ -299,7 +307,29 @@
               <h6 class="pt-2">Swolema</h6>
               <h6 class="pt-2">92</h6>
             </div>
-            <div class="col-md-2 section-tow-card m-2">
+            <div class="swiper-slide section-tow-card m-2">
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+                class="rounded-circle"
+                style="width: 120px"
+                alt="Avatar"
+              />
+
+              <h6 class="pt-2">Swolema</h6>
+              <h6 class="pt-2">92</h6>
+            </div>
+            <div class="swiper-slide section-tow-card m-2">
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+                class="rounded-circle"
+                style="width: 120px"
+                alt="Avatar"
+              />
+
+              <h6 class="pt-2">Swolema</h6>
+              <h6 class="pt-2">92</h6>
+            </div>
+            <div class="swiper-slide section-tow-card m-2">
               <img
                 src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
                 class="rounded-circle"
@@ -311,22 +341,23 @@
               <h6 class="pt-2">92</h6>
             </div>
           </div>
+          <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
         </div>
       </section>
 
       <!-- HAPPY STORIES  -->
       <section class="section-three">
-        <div>
+        <div class="swiper mySwiper container" >
           <h1
             class="text-center mb-5 pt-5"
             style="font-weight: bold; font-size: 30px"
           >
             HAPPY STORIES
           </h1>
-          <div class="container d-flex">
-            <div class="row">
-              <div class="col-md-4">
-                <div class="section-three-card">
+          
+            <div class="swiper-wrapper" >
+                <div class="section-three-card swiper-slide ">
                   <div class="d-flex">
                     <div>
                       <img
@@ -358,9 +389,7 @@
                     </p>
                   </div>
                 </div>
-              </div>
-              <div class="col-md-4">
-                <div class="section-three-card">
+                <div class="section-three-card swiper-slide ">
                   <div class="d-flex">
                     <div>
                       <img
@@ -392,9 +421,7 @@
                     </p>
                   </div>
                 </div>
-              </div>
-              <div class="col-md-4">
-                <div class="section-three-card">
+                <div class="section-three-card swiper-slide ">
                   <div class="d-flex">
                     <div>
                       <img
@@ -425,10 +452,77 @@
                       >
                     </p>
                   </div>
+                
                 </div>
-              </div>
-            </div>
-          </div>
+                <div class="section-three-card swiper-slide ">
+                  <div class="d-flex">
+                    <div>
+                      <img
+                        src="/img/FB_IMG_1588903491926.jpg"
+                        class="rounded-circle"
+                        style="width: 100px; height: 100px"
+                        alt="Avatar"
+                      />
+                    </div>
+                    <div class="section-three-title">
+                      <a class="text-decoration-none" href="#"
+                        ><h5>Choosing Your Workout Partner</h5></a
+                      >
+                    </div>
+                  </div>
+                  <div class="three-section">
+                    <p>
+                      When lifting solo, you have complete control of program
+                      choice, load, exercise variation, starting time, etc.
+                      Training alone affords you the opportunity to get lost in
+                      the “suck” of a session and deeply
+                      <span
+                        ><a
+                          class="section-three-mor text-decoration-none"
+                          href="/myPage.html"
+                          >Read More</a
+                        ></span
+                      >
+                    </p>
+                  </div>
+                
+                </div>
+                <div class="section-three-card swiper-slide ">
+                  <div class="d-flex">
+                    <div>
+                      <img
+                        src="/img/FB_IMG_1588903491926.jpg"
+                        class="rounded-circle"
+                        style="width: 100px; height: 100px"
+                        alt="Avatar"
+                      />
+                    </div>
+                    <div class="section-three-title">
+                      <a class="text-decoration-none" href="#"
+                        ><h5>Choosing Your Workout Partner</h5></a
+                      >
+                    </div>
+                  </div>
+                  <div class="three-section">
+                    <p>
+                      When lifting solo, you have complete control of program
+                      choice, load, exercise variation, starting time, etc.
+                      Training alone affords you the opportunity to get lost in
+                      the “suck” of a session and deeply
+                      <span
+                        ><a
+                          class="section-three-mor text-decoration-none"
+                          href="/myPage.html"
+                          >Read More</a
+                        ></span
+                      >
+                    </p>
+                  </div>
+                
+                </div>
+           </div>
+             <div class="swiper-button-next"></div>
+             <div class="swiper-button-prev"></div>
         </div>
         <div class="text-center">
           <a href="">
@@ -436,18 +530,18 @@
           </a>
         </div>
       </section>
+
       <!-- our lastest post  -->
       <section class="last-sesstion">
-        <div class="container" style="padding: 0 90px 0 90px">
+        <div class="swiper mySwiper container" style="padding: 0 90px 0 90px">
           <h1
             class="text-center mb-5 pt-5"
             style="font-weight: bold; font-size: 30px"
           >
             OUR LATEST BLOG
           </h1>
-          <div class="row">
-            <div class="col-md-4">
-              <div class="card-blog mb-5" style="width: 18rem">
+           <div class="swiper-wrapper" >
+              <div class="card-blog mb-5 swiper-slide " style="width: 18rem">
                 <div>
                   <img
                     style="border-radius: 10px 10px 0 0"
@@ -480,10 +574,9 @@
                     <button class="button">Read More</button>
                   </a>
                 </div>
+            
               </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card-blog mb-5" style="width: 18rem">
+              <div class="card-blog mb-5 swiper-slide " style="width: 18rem">
                 <div>
                   <img
                     style="border-radius: 10px"
@@ -517,9 +610,41 @@
                   </a>
                 </div>
               </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card-blog mb-5" style="width: 18rem">
+              <div class="card-blog mb-5 swiper-slide " style="width: 18rem">
+                <div>
+                  <img
+                    style="border-radius: 10px"
+                    src="/img/post/yoga1 1.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                </div>
+                <div class="card-body">
+                  <div style="font-size: 13px">
+                    <span>14 May, 2022</span>
+                    <span>Posted By: Admin</span>
+                  </div>
+                  <a href="" class="text-decoration-none">
+                    <h5>
+                      Which is more effective for dieting, muscle training or
+                      aerobic exercise?
+                    </h5>
+                  </a>
+                  <p style="font-size: 13px">
+                    Hot days continue every day, and it’s finally summer. The
+                    sea and pool are already crowded every day thanks to this
+                    intense heat. Well, I’ve talked about diet and weight
+                    control for the summer several times, but this time I’ve
+                    talked...
+                  </p>
+                </div>
+                <div class="text-center">
+                  <a href="/blog.html">
+                    <button class="button">Read More</button>
+                  </a>
+                </div>
+              </div>
+              <div class="card-blog mb-5 swiper-slide " style="width: 18rem">
                 <div>
                   <img
                     style="border-radius: 10px"
@@ -553,11 +678,47 @@
                   </a>
                 </div>
               </div>
-            </div>
-          </div>
+              <div class="card-blog mb-5 swiper-slide " style="width: 18rem">
+                <div>
+                  <img
+                    style="border-radius: 10px"
+                    src="/img/post/health 2.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                </div>
+                <div class="card-body">
+                  <div style="font-size: 13px">
+                    <span>14 May, 2022</span>
+                    <span>Posted By: Admin</span>
+                  </div>
+                  <a href="" class="text-decoration-none">
+                    <h5>
+                      Which is more effective for dieting, muscle training or
+                      aerobic exercise?
+                    </h5>
+                  </a>
+                  <p style="font-size: 13px">
+                    Hot days continue every day, and it’s finally summer. The
+                    sea and pool are already crowded every day thanks to this
+                    intense heat. Well, I’ve talked about diet and weight
+                    control for the summer several times, but this time I’ve
+                    talked...
+                  </p>
+                </div>
+                <div class="text-center">
+                  <a href="/blog.html">
+                    <button class="button">Read More</button>
+                  </a>
+                </div>
+              </div>
+         </div>
+          <div class="swiper-button-next"></div>
+             <div class="swiper-button-prev"></div>
         </div>
       </section>
     </main>
+
     <!-- footer  -->
     <footer class="container-footer">
       <div class="site-footer">
@@ -610,6 +771,40 @@
         <p>© 2022 Swolemance. All rights reserved.</p>
       </div>
     </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+       loop: true,
+        loopFillGroupWithBlank: true,
+        autoplay: {
+          delay: 2000,
+          disableOnInteraction: false,
+        },
+         navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
+          1400: {
+            slidesPerView: 4,
+            spaceBetween: 50,
+          },
+        },
+      });
+    </script>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
